@@ -26,6 +26,7 @@ label {
   }
 
   label:after {
+      font-size: 3em;
     position: absolute;
     content: "\2261";
   }
