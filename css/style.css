@@ -39,8 +39,8 @@ nav[role="off-canvas"] {
 }
 .content {
     position: absolute;
-    top: 5em;
-    left: 5em;
+    top: 1em;
+    left: 1em;
 }
 
 /* small screens */
@@ -58,7 +58,7 @@ nav[role="off-canvas"] {
   .content {
     position: absolute;
     top: 5em;
-    left: 5em;
+    left: 1em;
 }
   nav[role="off-canvas"] {
     position: absolute;
