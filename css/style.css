@@ -1,4 +1,8 @@
+.mainImage{
+    width:100%;
+    
+}
 .mainImage img{
-    width:800px;
+    width:50%;
     
 }
