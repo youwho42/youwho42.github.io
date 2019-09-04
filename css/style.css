@@ -48,8 +48,12 @@ nav[role="off-canvas"] {
     width: 20em;
     opacity: 0;
   }
-
-    input:checked ~ .content {
+  input:checked ~ nav[role="off-canvas"] {
+    opacity: 1;
+    left: 0;
+    box-shadow: -30em 0 0 30em rgba(0, 0, 0, .3);
+  }
+  input:checked ~ .content {
     margin-left: 20.5em;
     margin-right: -20.5em;
   }
