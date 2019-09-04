@@ -6,12 +6,13 @@ input[type=checkbox] {
 }
 label {
   position: absolute;
-  left: 0;
+  left: 10;
+  top: 10;
   display: none;
   width: 2em;
-  height: 2.25em;
-  padding: 0.35em;
-  font-size: 1.1em;
+  height: 2em;
+  
+  font-size: 2em;
   color: #fff;
   transition: color 0.3s ease-in-out;
   cursor: pointer;
