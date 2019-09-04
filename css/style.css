@@ -6,8 +6,8 @@ input[type=checkbox] {
 }
 label {
   position: absolute;
-  left: 10;
-  top: 10;
+  left: 0;
+  top: 0;
   display: none;
   width: 2em;
   height: 2em;
@@ -45,7 +45,7 @@ nav[role="off-canvas"] {
     right: 0.25em;
     top: 0;
     content: "\2261";
-    font-size: 1.8em;
+    font-size: 2em;
   }
   .content {
     position: absolute;
