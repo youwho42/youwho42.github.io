@@ -96,7 +96,7 @@ nav[role="off-canvas"] {
   label:after {
     
     content: "\2261";
-    
+    font-size: 2em;
   }
   .content {
     position: absolute;
