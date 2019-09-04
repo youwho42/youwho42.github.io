@@ -1,11 +1,3 @@
-/*
-label {
-  position: absolute;
-  left: 0;
-  display: none;
-}
-*/
-
 @media screen and (max-width: 44em) {
   $menu_width: 20em;
 
@@ -17,12 +9,11 @@ label {
     position: absolute;
     left: -$menu_width;
     width: $menu_width;
-    }
     
-  ul > li {
+    ul > li {
       width: 100%;
     }
-  
+  }
 
   label {
     display: block;
