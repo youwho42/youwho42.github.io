@@ -1,12 +1,4 @@
-* { background-color: rgba(255,0,0,.2); }
-* * { background-color: rgba(0,255,0,.2); }
-* * * { background-color: rgba(0,0,255,.2); }
-* * * * { background-color: rgba(255,0,255,.2); }
-* * * * * { background-color: rgba(0,255,255,.2); }
-* * * * * * { background-color: rgba(255,255,0,.2); }
-* * * * * * * { background-color: rgba(255,0,0,.2); }
-* * * * * * * * { background-color: rgba(0,255,0,.2); }
-* * * * * * * * * { background-color: rgba(0,0,255,.2); }
+
 input[type=checkbox] {
   position: absolute;
   top: -9999px;
@@ -36,11 +28,13 @@ nav[role="off-canvas"] {
   transition-duration: 0.3s, 0.5s;
   transition-timing-function: ease-in-out;
   transition-property: left, opacity, box-shadow;
+    border: 1px solid black;
 }
 .content {
     position: absolute;
     top: 1em;
     left: 10em;
+    border: 1px solid black;
 }
 
 /* small screens */
@@ -58,7 +52,8 @@ nav[role="off-canvas"] {
   .content {
     position: absolute;
     top: 1em;
-    left: 2em;
+    left: 5em;
+      
 }
   nav[role="off-canvas"] {
     position: absolute;
