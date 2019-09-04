@@ -119,8 +119,8 @@ nav[role="off-canvas"] {
     box-shadow: -30em 0 0 30em rgba(0, 0, 0, .3);
   }
   input:checked ~ .content {
-    margin-left: var(--main-menu-width) + .5em;
-    margin-right: -var(--main-menu-width) - .5em;
+    margin-left: var(--main-menu-width);
+    margin-right: -var(--main-menu-width);
     
   }
 }
