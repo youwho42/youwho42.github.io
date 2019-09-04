@@ -9,11 +9,11 @@
     position: absolute;
     left: -$menu_width;
     width: $menu_width;
-    
+    }
     ul > li {
       width: 100%;
     }
-  }
+  
 
   label {
     display: block;
