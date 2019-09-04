@@ -57,7 +57,7 @@ nav[role="off-canvas"] {
 }
   nav[role="off-canvas"] {
     position: absolute;
-    top: 1em;
+    top: 5em;
     left: -10em;
     width: 10em;
     opacity: 0;
