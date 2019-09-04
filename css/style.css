@@ -30,7 +30,9 @@ nav[role="off-canvas"] {
   transition-property: left, opacity, box-shadow;
 }
 .content {
-    top:5em;
+    position: absolute;
+    top: 5em;
+    left: 5em;
 }
 
 /* small screens */
@@ -45,8 +47,10 @@ nav[role="off-canvas"] {
     content: "\2261";
     font-size: 1.8em;
   }
-    .content {
-    top:15em;
+  .content {
+    position: absolute;
+    top: 5em;
+    left: 5em;
 }
   nav[role="off-canvas"] {
     position: absolute;
