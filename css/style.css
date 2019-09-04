@@ -60,8 +60,8 @@ label {
   left: 0;
   top: 0;
   display: none;
-  width: 1em;
-  height: 1em;
+  width: 1.5em;
+  height: 1.5em;
   
   font-size: 2em;
   color: #fff;
@@ -94,9 +94,9 @@ nav[role="off-canvas"] {
     display: block;
   }
   label:after {
-    top: -1em;
+    
     content: "\2261";
-    font-size: 2em;
+    
   }
   .content {
     position: absolute;
