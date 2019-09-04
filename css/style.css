@@ -1,3 +1,9 @@
+label {
+  position: absolute;
+  left: 0;
+  display: none;
+}
+
 @media screen and (max-width: 44em) {
   $menu_width: 20em;
 
