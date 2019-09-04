@@ -29,6 +29,9 @@ nav[role="off-canvas"] {
   transition-timing-function: ease-in-out;
   transition-property: left, opacity, box-shadow;
 }
+.content {
+    top:5em;
+}
 
 /* small screens */
 @media screen and (max-width: 44em) {
@@ -42,6 +45,9 @@ nav[role="off-canvas"] {
     content: "\2261";
     font-size: 1.8em;
   }
+    .content {
+    top:15em;
+}
   nav[role="off-canvas"] {
     position: absolute;
     top: 3em;
@@ -57,5 +63,6 @@ nav[role="off-canvas"] {
   input:checked ~ .content {
     margin-left: 20.5em;
     margin-right: -20.5em;
+    
   }
 }
