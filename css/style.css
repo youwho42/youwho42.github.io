@@ -94,9 +94,7 @@ nav[role="off-canvas"] {
     display: block;
   }
   label:after {
-    position: absolute;
-    right: 0.25em;
-    top: 0;
+    
     content: "\2261";
     font-size: 2em;
   }
