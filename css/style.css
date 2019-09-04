@@ -39,3 +39,4 @@ label {
     margin-left: $menu_width + .5em;
     margin-right: -($menu_width + .5em);
   }
+}
