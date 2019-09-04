@@ -31,10 +31,16 @@ nav[role="off-canvas"] {
 
 /* small screens */
 @media screen and (max-width: 44em) {
-    label {
-        display: block;
-    }
-  
+  label {
+    display: block;
+  }
+  label:after {
+    position: absolute;
+    right: 0.25em;
+    top: 0;
+    content: "\2261";
+    font-size: 1.8em;
+  }
   nav[role="off-canvas"] {
     position: absolute;
     top: 3em;
@@ -42,5 +48,9 @@ nav[role="off-canvas"] {
     width: 20em;
     opacity: 0;
   }
-  
+
+    input:checked ~ .content {
+    margin-left: 20.5em;
+    margin-right: -20.5em;
+  }
 }
