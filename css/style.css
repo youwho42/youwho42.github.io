@@ -1,3 +1,5 @@
+/* RESETS */
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -50,6 +52,8 @@ blockquote, q {
   --main-menu-width: 10em; 
 }
 
+/* BIG SCREEN LAYOUT */
+
 input[type=checkbox] {
   position: absolute;
   top: -9999px;
@@ -88,13 +92,12 @@ nav[role="off-canvas"] {
     border: 1px solid black;
 }
 
-/* small screens */
+/* SMALL SCREEN LAYOUT */
 @media screen and (max-width: 44em) {
   label {
     display: block;
   }
-  label:after {
-    vertical-align: middle;
+  label:before {
     content: "\2261";
     font-size: 2em;
   }
