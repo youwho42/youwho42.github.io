@@ -96,11 +96,15 @@ nav[role="off-canvas"] {
 @media screen and (max-width: 44em) {
   label {
     display: block;
+    content: "\2261";
+    font-size: 1.5em;
   }
+/*
   label:before {
     content: "\2261";
     font-size: 1.5em;
   }
+*/
   .content {
     position: absolute;
     top: 1em;
