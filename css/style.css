@@ -67,7 +67,7 @@ label {
   width: 1.5em;
   height: 1.5em;
   
-  font-size: 2em;
+  font-size: 1.5em;
   color: #fff;
   transition: color 0.3s ease-in-out;
   cursor: pointer;
@@ -99,7 +99,7 @@ nav[role="off-canvas"] {
   }
   label:before {
     content: "\2261";
-    font-size: 2em;
+    font-size: 1.5em;
   }
   .content {
     position: absolute;
