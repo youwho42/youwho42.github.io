@@ -1,11 +1,4 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <link rel="stylesheet" type="text/css" href="css/style.css"> 
-    </head>
-    
-    <body>
-        <input type="checkbox" id="menu">
+<input type="checkbox" id="menu">
         <label for="menu" onclick></label>
 
 
@@ -19,12 +12,3 @@
             </ul>
         </nav>
         
-        
-        <div class="content">
-            <p>CONTENT!!!</p>
-        </div>
-        
-        
-    </body>
-    
-</html>
