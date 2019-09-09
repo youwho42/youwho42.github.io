@@ -3,7 +3,7 @@
         <?php include 'menu.php';?>
         
         <div class="content">
-            <p>CONTENT!!!</p>
+            <p>Index page - <br>CONTENT!!!</p>
         </div>
         
         
